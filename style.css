@@ -1,0 +1,74 @@
+/* Style général du site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #bd1a8c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #bd1a8c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Style pour la page d'accueil */
+main .content {
+    padding: 20px;
+    text-align: center;
+}
+
+main .content img {
+    width: 1600px;
+    height: 600px;
+}
+
+/* Style pour la galerie de photos */
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-gallery img {
+    width: 1500px;
+    height: 500px;
+}
+
+/* Style pour la vidéo */
+.video-section {
+    padding: 20px;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
